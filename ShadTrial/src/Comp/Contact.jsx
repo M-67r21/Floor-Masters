@@ -151,15 +151,14 @@ const ContactUs = () => {
         id='contact'
     >
       <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-8">
-        <h2 className="text-4xl font-bold text-gray-900 mb-6 text-center">
+        <h2 className="text-4xl font-bold text-yellow-600 mb-6 text-center">
           Contact Us
         </h2>
         <p className="text-center text-gray-600 mb-10">
           Have any questions or inquiries? We'd love to hear from you!
         </p>
         <form 
-            action="https://formspree.io/f/xwpqkpod"
-            method="POST"            
+                        
             className="grid grid-cols-1 gap-6">
           <div>
             <label className="block text-sm font-medium text-gray-700">Name</label>
@@ -188,7 +187,7 @@ const ContactUs = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="px-6 py-3 bg-gray-900 text-white font-semibold  hover:bg-gray-800 transition"
+              className="px-6 py-3 bg-gray-900 text-white font-semibold  hover:bg-gray-600 transition"
             >
               Send Message
             </button>

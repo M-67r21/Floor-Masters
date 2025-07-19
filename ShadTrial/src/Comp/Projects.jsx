@@ -3,15 +3,14 @@
 export default function Cards() {
   return (
     <div 
-      className="bg-white py-24 sm:py-10"
+      className="bg-white sm:py-10 py-0"
       id="projects"
       >
-      <div className=" ml-auto mr-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto lg:mx-0 pt-12">
-          <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl text-center">Projects that we have worked on</h2>
-          <p className="mt-2 text-lg/8 text-gray-600 lg:text-center">We specialize in wide range of services including tiles, timber, mazeras.</p>
+      <div className=" ml-auto mr-auto max-w-7xl pb-6 px-6 lg:px-8">
+        <div className="mx-auto lg:mx-0 ">
+          <h2 className="text-4xl font-semibold tracking-tight text-pretty text-yellow-600 sm:text-5xl text-center">Projects that we have worked on</h2>
         </div>
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-0 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-0 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-0 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <div className='bg-white rounded overflow-hidden shadow-lg relative'>
                 <img src="https://cdn-cmldl.nitrocdn.com/aQayWcFhZzjNDvkHQkBIMNeGitSbMvxj/assets/static/optimized/rev-7fa0e76/wp-content/uploads/elementor/thumbs/P1640118-1-ozp8b7pk7je4ny0cuo74xds9pgj1is329j08bclq60.jpg" alt="" className='w-full h-80 object-cover' />
                 <div className='m-4'>

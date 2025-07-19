@@ -7,31 +7,27 @@ const Footer = () => {
             
             {/* Column 1 */}
             <div className="md:w-1/2">
-            <h1 className="text-7xl font-bold mb-4">Floor Masters</h1>
-            <p className="text-2xl text-gray-400">Building dreams, one floor at a time.</p>
+            <a href="#">
+                <h1 className="text-7xl font-bold mb-4 text-yellow-600">Floor Masters</h1>
+            </a>
+            <p className="text-2xl text-gray-400">Building your dreams, one floor at a time.</p>
             </div>
             
 
             {/* Column 2 with 3 nested columns */}
-            <div className="md:w-1/2 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="md:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-5">
             <div>
-                <h3 className="font-semibold text-lg mb-2">Company</h3>
-                <ul className="text-sm text-gray-400 space-y-3">
-                <li>About</li>
-                <li>Careers</li>
-                <li>Press</li>
+                <h3 className="font-bold text-3xl mb-2 text-yellow-600">Company</h3>
+                <ul className="text-l text-gray-400 space-y-3">
+                <li><a href="#about" className="hover:text-white">About Us</a></li>
+                <li><a href="#services" className="hover:text-white">Services</a></li>
+                <li><a href="#projects" className="hover:text-white">Projects</a></li>
+                <li><a href="#contact" className="hover:text-white">Contact</a></li>
                 </ul>
             </div>
+            
             <div>
-                <h3 className="font-semibold text-lg mb-2">Support</h3>
-                <ul className="text-sm text-gray-400 space-y-3">
-                <li>Help Center</li>
-                <li>FAQs</li>
-                <li>Contact</li>
-                </ul>
-            </div>
-            <div>
-                <h3 className="font-semibold text-lg mb-2">Contact Us</h3>
+                <h3 className="font-bold text-3xl mb-2 text-yellow-600">Contact Us</h3>
                 <ul className=" space-x-4 text-gray-400 space-y-3">
                     <li><a href="#" className="hover:text-white">Facebook</a></li>
                     <li><a href="#" className="hover:text-white">Twitter</a></li>

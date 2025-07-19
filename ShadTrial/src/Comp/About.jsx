@@ -13,7 +13,7 @@ const stats = [
 
 export default function Example() {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+    <div className="relative isolate overflow-hidden bg-gray-900 sm:py-20 py-10">
       
       <div
         aria-hidden="true"

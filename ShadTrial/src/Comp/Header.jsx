@@ -3,10 +3,11 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/Logo.png'
 
 const navigation = [
   { name: 'Home', href: '#' },
+  { name: 'About', href: '#about' },
   { name: 'Services', href: '#services' },
   { name: 'Projects', href: '#projects' },
 ]
@@ -15,7 +16,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white"    >
+    <div className=""    >
       <header className="fixed inset-x-0 top-0 z-50 shadow-lg bg-white ">
         {/* <img
         alt=""
@@ -80,7 +81,7 @@ export default function Example() {
         <div className="mx-auto w-full py-24  ">
           
           <div className="text-center">
-            <p className='text-xl pb-5'>Welcome to Floor Masters</p>
+            <p className='text-xl font-bold text-yellow-600 pb-5'>Welcome to Floor Masters</p>
             <h1 className="text-5xl font-bold tracking-tight text-balance text-gray-900 sm:text-7xl">
               Building Your Dreams, One Floor at a Time
             </h1>
